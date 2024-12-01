@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Online</title>
+</head>
+
+<body style="background-color:#f0efc4;">
+    <form name="frm_online">
+        <table align="center" width="40%" cellpadding="10">
+            <thead>
+                <tr style="background-color:#5d6d0f;">
+                    <th colspan="2" style="color: #f0efc4;">Contact Me</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr bgcolor="#5d6d0f">
+                    <th colspan="2">
+                        <input type="submit" name="simpan" value="Submit" />
+                        <input type="reset" name="batal" value="Clear" />
+                    </th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>First Name</td>
+                    <td>
+                        <input type="text" name="nama" value="" size="30" maxlength="80" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td>
+                        <input type="text" name="nama" value="" size="30" maxlength="80" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="email" name="email" value="@gmail.com" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="jk" value="M" />Male
+                        &nbsp;
+                        <input type="radio" name="jk" value="F" checked />Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jurusan</td>
+                    <td>
+                        <select name="jurusan">
+                            <option value="">--Pilih Jurusan</option>
+                            <option value="Sistem Informasi" selected>Sistem Informasi</option>
+                            <option value="Teknik informatika">Teknik informatika</option>
+                            <option value="Bisnis Digital">Bisnis Digital</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Photo</td>
+                    <td>
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Message</td>
+                    <td>
+                        <textarea name="Message" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

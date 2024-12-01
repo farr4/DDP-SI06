@@ -1,0 +1,38 @@
+h1{
+    color:darkolivegreen;
+    font-family: Georgia;
+}
+hr,fieldset{
+    border: 2px darkkhaki outset;
+}
+fieldset,legend{
+    border: ridge darkslategray 2px;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    border: solid 1px rgb(60, 78, 29);
+    padding: 5px;
+    background-color: rgb(113, 134, 62);
+    color: rgb(33, 37, 19);
+    border-radius: 10px;
+}
+a:hover{
+    text-decoration: none;
+    border: solid 1px rgb(47, 61, 23);
+    padding: 5px;
+    background-color: rgb(113, 134, 62);
+    color: rgb(187, 204, 140);
+    border-radius: 10px;
+}
+.satu{
+color: rgb(98, 99, 52);
+}
+.navigation {
+    overflow: hidden;
+    background-color: #d5f8a6;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+  }
